@@ -22,6 +22,10 @@ html {
   color:firebrick;
 }
 
+table, th, td{
+  border: 1px solid black;
+}
+
 .reply{
   padding-left:50px;
 }
