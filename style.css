@@ -26,6 +26,10 @@ table, th, td{
   border: 1px solid black;
 }
 
+th{
+  text-align: center;
+}
+
 .reply{
   padding-left:50px;
 }
