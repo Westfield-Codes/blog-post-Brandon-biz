@@ -5,7 +5,10 @@ html {
 
 body{
   background-color: #7acf88;
-  text: white;
+}
+
+.container{
+  background-color: white;
 }
 
 .bd-placeholder-img {
