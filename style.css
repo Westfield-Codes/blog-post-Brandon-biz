@@ -4,7 +4,7 @@ html {
 }
 
 body{
-  background-color: #5ac56c;
+  background-color: #5bbe6c;
 }
 
 .bd-placeholder-img {
@@ -28,6 +28,7 @@ body{
 
 table, th, td{
   border: 1px solid black;
+  background-color: #F6F6F6;
 }
 
 th{
