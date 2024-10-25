@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-  background-color: white;
+  background-color: #F6F6F6;
 }
 
 .bd-placeholder-img {
@@ -33,8 +33,8 @@ body{
 
 #blogtitle {
   text-align: left;
-  padding-top:1em;
   color:firebrick;
+  padding-top: 8px;
 }
 
 table, th, td{
@@ -49,6 +49,10 @@ table{
 
 th{
   text-align: center;
+}
+
+.pb-4{
+  background-color: #fcb35f;
 }
 
 .reply{
