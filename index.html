@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Blog Template · Bootstrap v5.0</title>
+    <title>A Game Beyond the Gridiron · Bootstrap v5.0</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/blog/">
     <link href="bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
@@ -41,15 +41,14 @@
 </h2>
 <p>At its core, fantasy football is about connection and enjoyment. It encourages participants to engage with the NFL in new ways, understanding players, statistics, and game strategies. Even if you don’t typically watch football, joining a fantasy league can offer a fresh perspective, turning game days into thrilling events where every player’s performance can impact your success. Plus, the shared experience of competing with friends or family creates a sense of camaraderie that extends far beyond the final score.
 </p>
-<h2 align="center">Notable ESPN Personalities in Fantasy Football</h2>
-<table><tr><th><strong>Name</strong></th><th><strong>Role</strong></th><th rowspan="5"><img src="fant.jpg"></th></tr>
-<tr><td>Matthew Berry</td><td>Fantasy Analyst</td></tr>
-<tr><td>Field Yates</td><td>Fantasy Insider</td></tr>
-<tr><td>Stephania Bell</td><td>Injury Expert</td></tr>
-<tr><td>Mike Clay</td><td>Fantasy Football Expert</td></tr>
+<table align = "center"><tr><th><h2>A Fantasy Roster</h2></th><th><h2>Notable ESPN Personalities in Fantasy Football</h2></th></tr><tr><td><img src="roster.jpg"></td><td><table><tr><th><strong>Name</strong></th><th><strong>Role</strong></th><th rowspan="5"><img src="fant.jpg"></th></tr>
+  <tr><td>Matthew Berry</td><td>Fantasy Analyst</td></tr>
+  <tr><td>Field Yates</td><td>Fantasy Insider</td></tr>
+  <tr><td>Stephania Bell</td><td>Injury Expert</td></tr>
+  <tr><td>Mike Clay</td><td>Fantasy Football Expert</td></tr></table></td>
 </table>
 <p>So whether you’re a die-hard football fan or just someone looking for a fun way to connect with friends, fantasy football offers a unique experience that’s hard to beat. Why not give it a try? You might just find yourself hooked!</P>
-  <h3>Further Reading</h3>
+  <h2>Further Reading</h2>
   <ul><li><a href="https://www.profootballhof.com/blogs/2020/09/blogs-stories-from-the-pro-football-hall-of-fame-archives-fantasy-football-originates-in-unlikely-f/">The History of Fantasy Football</a></li>
   <li><a href= "https://leaguetycoon.com/10-extreme-fantasy-football/">Top 10 Wildest Fantasy Football Punishments</a></li>
   <li><a href= "https://www.espn.com/fantasy/football/story/_/id/38123381/beginner-fantasy-football-guide-how-play">Fantasy Football Tips for Beginners</a></li></ul>
@@ -180,7 +179,45 @@
                     </div>
                   </div>
 
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      
+                      <p>Beautiful, clean design, Brandon. Great background colors matching your header.<br>   <br> 
 
+                        Why are there 8 faces next to four ESPN personalities? That's confusing. Can you fix that by separating out the cartoon faces and giving them separate table cells?<br> <br> 
+                        
+                        Code Tweaks: <br> <br> 
+                        1. Either make your H2s into H3s or reduce their font size to 18pt.  They compete with the H1 now <br> <br> 
+                        2. Add more padding to the container div. I'd go with 20px.<br> <br> 
+                        
+                        If you wish: I'd like to see a Fantasy Football stats sheet like players use (I assume they still do?) as an example for "What Fantasy Football Is" (new paragraph you do not have yet.)</p>
+    
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" width="25" height="25">
+                          
+                          <p class="small mb-0 ms-2">Bram</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mb-4 reply">
+                    <div class="card-body">
+    
+                        <p>Thanks!  I added a stats sheet and fixed the code.</p>
+    
+                        <div class="d-flex justify-content-between">
+                          <div class="d-flex flex-row align-items-center">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar" width="25" height="25">
+    
+                            <p id="rainbow" style="color:red;" class="small mb-0 ms-2">Brandon Barnes</p>
+    
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
             </div>
           </div>
